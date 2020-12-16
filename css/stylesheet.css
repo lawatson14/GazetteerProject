@@ -43,7 +43,7 @@ span{
 .modalLoader{
 	margin: 20px auto;
 }
-#modal-body{
+.modal-body{
 	max-height: 70vh;
 	overflow-y: scroll;
 }
