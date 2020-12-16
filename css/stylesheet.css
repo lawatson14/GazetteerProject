@@ -1,0 +1,49 @@
+#navSelect{
+	display: inline-block;
+	margin: 10px auto;
+}
+#map{
+	min-height: calc(100vh - 74px);
+}
+.leaflet-touch .leaflet-control-layers, .leaflet-touch .leaflet-bar {
+    border: 2px solid rgba(20, 23, 25, 0.5);
+    background-clip: padding-box;
+}
+.legend .info{
+	display: none;
+}
+.info, .legend{
+	padding: 6px 8px;
+	font: 14px/16px Arial, Helvetica, sans-serif;
+	background: white;
+	background: rgba(255,255,255,0.8);
+	box-shadow: 0 0 15px rgba(0,0,0,0.2);
+	border-radius: 5px;
+	border: 2px solid rgba(20, 23, 25, 0.5);
+    background-clip: padding-box;
+}
+.legend{
+	bottom: 30px;
+}
+.legend div{
+	display: inline-block;
+	width: 16px;
+	height: 10px;
+	margin-right: 8px;
+	border-top: 2px solid #666;
+	border-bottom: 2px dashed #fff;
+}
+span{
+	font-weight: bold;
+}
+
+.pageLoader{
+	margin-top: calc(50vh - 66px);
+}
+.modalLoader{
+	margin: 20px auto;
+}
+#modal-body{
+	max-height: 70vh;
+	overflow-y: scroll;
+}
